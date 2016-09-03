@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+branches:
+  only:
+    bomolog
+install: mvn install -U -DskipTests=true
+script:
+  mvn integration-test verify -Ptest
+deploy:
+  provider: heroku
+  api_key:
+    secure: "511f02fe-9d6f-463d-a4e9-4e3a38f53364" # API Key, encontrado em Account Settings
+  on: bomolog # Configuração de branch
+  app: meuaperitivo # Nome da app no Heroku
