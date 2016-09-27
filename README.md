@@ -1,6 +1,6 @@
 # SisCultural
 
-[![Build Status](https://travis-ci.org/ads-ifpb-praticas-20161/siscultural.svg?branch=bHEROKU)](https://travis-ci.org/ads-ifpb-praticas-20161/siscultural)
+[![Build Status](https://travis-ci.org/WellingtonLins/estoque.svg?branch=bHomolog)](https://travis-ci.org/WellingtonLins/estoque)
 
 Sistema para controle de estoque de uma rede de lojas . 
 
